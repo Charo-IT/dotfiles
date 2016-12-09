@@ -15,3 +15,7 @@ set whichwrap=b,s,[,],<,>
 set laststatus=2
 "ステータスバーの色
 hi StatusLine term=bold cterm=bold ctermfg=black ctermbg=white
+
+augroup fileTypeIndent
+    autocmd BufNewFile,BufRead *.rb setlocal tabstop=2 shiftwidth=2
+augroup END

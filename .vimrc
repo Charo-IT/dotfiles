@@ -18,4 +18,5 @@ hi StatusLine term=bold cterm=bold ctermfg=black ctermbg=white
 
 augroup fileTypeIndent
     autocmd BufNewFile,BufRead *.rb setlocal tabstop=2 shiftwidth=2
+    autocmd BufNewFile,BufRead *.erb setlocal tabstop=2 shiftwidth=2
 augroup END
